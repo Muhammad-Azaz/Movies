@@ -32,7 +32,7 @@ vector_database = np.array(summary_embeddings)
 st.title("Movie Query and Recommendation System")
 
 # User input
-user_query = st.text_input("A comedy movie of salman khan:")
+user_query = st.text_input("Enter a movie description or query:")
 
 if st.button("Find Similar Movie"):
     if user_query:
