@@ -1,0 +1,3 @@
+streaml
+groq
+sentence_transformers
