@@ -13,7 +13,7 @@ api_key = st.secrets["GROQ_API_KEY"]
 client = Groq(api_key= api_key)
 
 # Load the dataset
-df = pd.read_csv('/content/Hydra-Movie-Scrape.csv')
+df = pd.read_csv('Hydra-Movie-Scrape.csv')
 
 # Ensure there are no NaN values in the 'Summary' column
 df['Summary'] = df['Summary'].fillna('')
